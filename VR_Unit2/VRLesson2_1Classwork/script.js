@@ -3,15 +3,15 @@ window.addEventListener("DOMContentLoaded",function() {
   let scene = document.querySelector("a-scene");
 
   //Challenge 2: Create a variable for <a-dodecahedron> and create it.
-   let box = document.createElement("a-dodecahedron");
+   let dodecahedron = document.createElement("a-dodecahedron");
   
   //Challenge 3: Change the <a-dodecahedron>'s position, radius and color
-  dodecahedron.setAttribute("position",{x: 2, y: 3, z: -1});
-  dodecahedron.setAttribute("radius","2");
-  dodecahedron.setAttribute("color","red");
+  dodecahedron.setAttribute("position", {x: 2, y: 3, z: -1});
+  dodecahedron.setAttribute("radius", "2");
+  dodecahedron.setAttribute("color", "red");
 
   //Challenge 4: Add the <a-dodecahedron> to the scene
-  scene.append(a-dode);
+  scene.append(dodecahedron);
 
   /* Challenge Bonus
   1) Use a for loop to create a lot of <a-dodecahedron> 
