@@ -35,16 +35,6 @@ function loop() {
   rocket.y += rocket.dy;
   rocket.setAttribute("position", {x: 3, y: rocket.y, z: -4});
 
-  if (dude.a < 2) {
-    dude.a += dude.da;
-    dude.setAttribute("scale", {x: dude.a, y: dude.a, z: dude.a});
-  }
-
-  if (sun.a < 1) {
-    sun.a += sun.da;
-    sun.setAttribute("material", "opacity", sun.a);
-  }
-
   window.requestAnimationFrame(loop);
 }
-    
+ 
