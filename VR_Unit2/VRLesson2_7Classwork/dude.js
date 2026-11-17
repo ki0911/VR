@@ -11,7 +11,8 @@ class Dude{
   }
   jump(){
     //Challenge 2: Add the accumulators to modify the y and z variables
-
+    this.x += this.dx;
+    
     //Challenge 3: Add the decision in order to alternate the delta on the y axis when the dude reaches less then 1 or greater than 2
 
     this.obj.setAttribute("position",{x:this.x,y:this.y,z:this.z});
